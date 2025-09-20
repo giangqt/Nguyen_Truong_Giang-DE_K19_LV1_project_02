@@ -1,21 +1,32 @@
 # 🛒 Tiki Product Data Collector
 
 ## 🚀 Introduction
-  - This project is to collect product information from Tiki.vn using product IDs.
-  - The pipeline fetches product details via Tiki’s API, processes the description content, and saves the results into structured JSON files.
+  - **This project** is to collect product information from Tiki.vn using **product IDs**.
+  - The pipeline fetches product details via **Tiki’s API**, processes the description content, and saves the results into **structured JSON files**.
 
 ---
 
 ## 🗂 Project Structure
+```bash
 Project2/
 │
-├── __pycache__/
 ├── dataset/
-├── src/
-├── main.py
-└── requirements.txt
-🛠 Requirements
-  - Python 3.10+
+│   └── product_ids.csv           # List of product IDs
+│
+├── src/                          # Python modules (utils)
+│
+├── __pycache__/                  # Auto-generated Python cache files
+│
+├── main.py                       # Entry point to run the pipeline
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+```
+
+---
+
+
+## 🛠 Requirements
+  - **Python 3.10+**
   - Required libraries:
     ```bash
     pip install -r requirements.txt
