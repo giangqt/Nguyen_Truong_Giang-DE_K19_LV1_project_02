@@ -1,15 +1,7 @@
-🛒 Tiki Product Data Collector – ETL Project
+🛒 Tiki Product Data Collector
 🚀 Introduction
-
-This project builds an ETL (Extract – Transform – Load) pipeline to collect product information from Tiki.vn using product IDs.
-The pipeline fetches product details via Tiki’s API, processes the description content, and saves the results into structured JSON files.
-
-Extract: Read product IDs from dataset/product_ids.csv and call the API for each product.
-
-Transform: Clean and standardize fields like description (remove hidden characters, HTML tags).
-
-Load: Save processed product data into JSON files (≈1000 products per file).
-
+  - This project is to collect product information from Tiki.vn using product IDs.
+  - The pipeline fetches product details via Tiki’s API, processes the description content, and saves the results into structured JSON files.
 🗂 Project Structure
 Project2/
 │
