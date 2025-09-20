@@ -1,4 +1,5 @@
 🛒 Tiki Product Data Collector
+
 🚀 Introduction
   - This project is to collect product information from Tiki.vn using product IDs.
   - The pipeline fetches product details via Tiki’s API, processes the description content, and saves the results into structured JSON files.
